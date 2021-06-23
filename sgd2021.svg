@@ -1,0 +1,26 @@
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <defs>
+    <pattern  id="pattern" patternTransform="rotate(0) scale(1)" x="0" y="0" width="245" height="315" patternUnits="userSpaceOnUse">
+      <rect fill="#ddd" fill-opacity="0.08" width="16" height="315" x="4" y="0"/>
+      <rect fill="#ddd" fill-opacity="0.11" width="24" height="315" x="40" y="0"/>
+      <rect fill="#222" fill-opacity="0.13" width="25" height="315" x="75" y="0"/>
+      <rect fill="#ddd" fill-opacity="0.03" width="14" height="315" x="108" y="0"/>
+      <rect fill="#222" fill-opacity="0.1" width="21" height="315" x="146" y="0"/>
+      <rect fill="#222" fill-opacity="0.07" width="21" height="315" x="175" y="0"/>
+      <rect fill="#222" fill-opacity="0.02" width="25" height="315" x="217" y="0"/>
+      <rect fill="#222" fill-opacity="0.07" width="245" height="17" x="0" y="3"/>
+      <rect fill="#ddd" fill-opacity="0.1" width="245" height="20" x="0" y="39"/>
+      <rect fill="#ddd" fill-opacity="0.09" width="245" height="15" x="0" y="76"/>
+      <rect fill="#222" fill-opacity="0.13" width="245" height="21" x="0" y="112"/>
+      <rect fill="#ddd" fill-opacity="0.11" width="245" height="15" x="0" y="144"/>
+      <rect fill="#222" fill-opacity="0.12" width="245" height="23" x="0" y="175"/>
+      <rect fill="#222" fill-opacity="0.06" width="245" height="14" x="0" y="210"/>
+      <rect fill="#ddd" fill-opacity="0.05" width="245" height="16" x="0" y="245"/>
+      <rect fill="#ddd" fill-opacity="0.11" width="245" height="20" x="0" y="281"/>
+
+    </pattern>
+  </defs>
+  <rect fill="#333f7a" height="100%" width="100%" x="0" y="0" />
+  <rect fill="url(#pattern)" height="100%" width="100%" x="0" y="0"/>
+</svg>

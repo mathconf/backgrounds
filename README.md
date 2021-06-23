@@ -51,3 +51,21 @@ div.header:after {
   display:none;
 }
 ```
+
+## sgd2021.svg
+
+```bash
+> svgpattern 'sgd2021' > sgd2021.svg
+```
+[![sgd2021.svg](sgd2021.svg)](sgd2021.svg)
+```css
+div.header {
+    background-color:#333f7a;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/sgd2021.svg);
+}
+div.header:after {
+  display:none;
+}
+```
