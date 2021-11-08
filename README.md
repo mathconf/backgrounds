@@ -42,7 +42,7 @@ div.header:after {
 [![jlpp2020.svg](jlpp2020.svg)](jlpp2020.svg)
 ```css
 div.header {
-    background-color:#336740;
+    background-color:#7c3f51;
     background-image:
       linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
       url(https://mathconf.github.io/backgrounds/jlpp2020.svg);
@@ -78,7 +78,7 @@ div.header:after {
 [![caic2022.svg](caic2022.svg)](caic2022.svg)
 ```css
 div.header {
-    background-color:#336740;
+    background-color:#31516c;
     background-image:
       linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
       url(https://mathconf.github.io/backgrounds/caic2022.svg);
@@ -96,7 +96,7 @@ div.header:after {
 [![polyar2022.svg](polyar2022.svg)](polyar2022.svg)
 ```css
 div.header {
-    background-color:#336740;
+    background-color:#663d8e;
     background-image:
       linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
       url(https://mathconf.github.io/backgrounds/polyar2022.svg);
@@ -114,10 +114,28 @@ div.header:after {
 [![falille2022.svg](falille2022.svg)](falille2022.svg)
 ```css
 div.header {
-    background-color:#336740;
+    background-color:#5c6a33;
     background-image:
       linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
       url(https://mathconf.github.io/backgrounds/falille2022.svg);
+}
+div.header:after {
+  display:none;
+}
+```
+
+## ciae-marseille2021.svg
+
+```bash
+> svgpattern 'ciae-marseille2021' > ciae-marseille2021.svg
+```
+[![ciae-marseille2021.svg](ciae-marseille2021.svg)](ciae-marseille2021.svg)
+```css
+div.header {
+    background-color:#326e44;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/ciae-marseille2021.svg);
 }
 div.header:after {
   display:none;
