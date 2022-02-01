@@ -150,7 +150,7 @@ div.header:after {
 [![jcn2022.svg](jcn2022.svg)](jcn2022.svg)
 ```css
 div.header {
-    background-color:#326e44;
+    background-color:#4e3170;
     background-image:
       linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
       url(https://mathconf.github.io/backgrounds/jcn2022.svg);
@@ -168,10 +168,28 @@ div.header:after {
 [![gdrafhp-calais2022.svg](gdrafhp-calais2022.svg)](gdrafhp-calais2022.svg)
 ```css
 div.header {
-    background-color:#326e44;
+    background-color:#496935;
     background-image:
       linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
       url(https://mathconf.github.io/backgrounds/gdrafhp-calais2022.svg);
+}
+div.header:after {
+  display:none;
+}
+```
+
+## qtg2022.svg
+
+```bash
+> svgpattern 'qtg2022' > qtg2022.svg
+```
+[![qtg2022.svg](qtg2022.svg)](qtg2022.svg)
+```css
+div.header {
+    background-color:#3f8b54;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/qtg2022.svg);
 }
 div.header:after {
   display:none;
