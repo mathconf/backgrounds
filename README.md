@@ -195,3 +195,21 @@ div.header:after {
   display:none;
 }
 ```
+
+## app-gvl-spring2022.svg
+
+```bash
+> svgpattern 'app-gvl-spring2022' > app-gvl-spring2022.svg
+```
+[![app-gvl-spring2022.svg](app-gvl-spring2022.svg)](app-gvl-spring2022.svg)
+```css
+div.header {
+    background-color:#3a7572;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/app-gvl-spring2022.svg);
+}
+div.header:after {
+  display:none;
+}
+```
