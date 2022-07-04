@@ -213,3 +213,21 @@ div.header:after {
   display:none;
 }
 ```
+
+## jlpp2022.svg
+
+```bash
+> svgpattern 'jlpp2022' > jlpp2022.svg
+```
+[![jlpp2022.svg](jlpp2022.svg)](jlpp2022.svg)
+```css
+div.header {
+    background-color:#727a39;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/jlpp2022.svg);
+}
+div.header:after {
+  display:none;
+}
+```
