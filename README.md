@@ -231,3 +231,21 @@ div.header:after {
   display:none;
 }
 ```
+
+## mdde2023.svg
+
+```bash
+> svgpattern 'mdde2023' > mdde2023.svg
+```
+[![mdde2023.svg](mdde2023.svg)](mdde2023.svg)
+```css
+div.header {
+    background-color:#37663f;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/mdde2023.svg);
+}
+div.header:after {
+  display:none;
+}
+```
