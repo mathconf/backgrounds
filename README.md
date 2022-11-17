@@ -1,7 +1,7 @@
 # [backgrounds](https://github.com/mathconf/backgrounds)
-SVG backgrounds used in some mathconf.org sites.
+SVG backgrounds used in some mathconf.org sites. To generate them I use [svgpattern](https://github.com/kpym/svgpattern).
 
-## primer.svg
+## [primer.svg](https://www.mathconf.org/primer)
 
 ```bash
 > svgpattern 'primer' > primer.svg
@@ -16,7 +16,7 @@ div.header {
 }
 ```
 
-## acqua2021.svg
+## [acqua2021.svg](https://www.mathconf.org/acqua2021)
 
 ```bash
 > svgpattern 'acqua2021' > acqua2021.svg
@@ -34,7 +34,7 @@ div.header:after {
 }
 ```
 
-## jlpp2020.svg
+## [jlpp2020.svg](https://www.mathconf.org/jlpp2020)
 
 ```bash
 > svgpattern 'jlpp2020' > jlpp2020.svg
@@ -52,7 +52,7 @@ div.header:after {
 }
 ```
 
-## sgd2021.svg
+## [sgd2021.svg](https://www.mathconf.org/sgd2021)
 
 ```bash
 > svgpattern 'sgd2021' > sgd2021.svg
@@ -70,7 +70,7 @@ div.header:after {
 }
 ```
 
-## caic2022.svg
+## [caic2022.svg](https://www.mathconf.org/caic2022)
 
 ```bash
 > svgpattern 'caic2022' > caic2022.svg
@@ -88,7 +88,7 @@ div.header:after {
 }
 ```
 
-## polyar2022.svg
+## [polyar2022.svg](https://www.mathconf.org/polyar2022)
 
 ```bash
 > svgpattern 'polyar2022' > polyar2022.svg
@@ -106,7 +106,7 @@ div.header:after {
 }
 ```
 
-## falille2022.svg
+## [falille2022.svg](https://www.mathconf.org/falille2022)
 
 ```bash
 > svgpattern 'falille2022' > falille2022.svg
@@ -124,7 +124,7 @@ div.header:after {
 }
 ```
 
-## ciae-marseille2021.svg
+## [ciae-marseille2021.svg](https://www.mathconf.org/ciae-marseille2021)
 
 ```bash
 > svgpattern 'ciae-marseille2021' > ciae-marseille2021.svg
@@ -142,7 +142,7 @@ div.header:after {
 }
 ```
 
-## jcn2022.svg
+## [jcn2022.svg](https://www.mathconf.org/jcn2022)
 
 ```bash
 > svgpattern 'jcn2022' > jcn2022.svg
@@ -160,7 +160,7 @@ div.header:after {
 }
 ```
 
-## gdrafhp-calais2022.svg
+## [gdrafhp-calais2022.svg](https://www.mathconf.org/gdrafhp-calais2022)
 
 ```bash
 > svgpattern 'gdrafhp-calais2022' > gdrafhp-calais2022.svg
@@ -178,7 +178,7 @@ div.header:after {
 }
 ```
 
-## qtg2022.svg
+## [qtg2022.svg](https://www.mathconf.org/qtg2022)
 
 ```bash
 > svgpattern 'qtg2022' > qtg2022.svg
@@ -196,7 +196,7 @@ div.header:after {
 }
 ```
 
-## app-gvl-spring2022.svg
+## [app-gvl-spring2022.svg](https://www.mathconf.org/app-gvl-spring2022)
 
 ```bash
 > svgpattern 'app-gvl-spring2022' > app-gvl-spring2022.svg
@@ -214,7 +214,7 @@ div.header:after {
 }
 ```
 
-## jlpp2022.svg
+## [jlpp2022.svg](https://www.mathconf.org/jlpp2022)
 
 ```bash
 > svgpattern 'jlpp2022' > jlpp2022.svg
@@ -232,7 +232,7 @@ div.header:after {
 }
 ```
 
-## mdde2023.svg
+## [mdde2023.svg](https://www.mathconf.org/mdde2023)
 
 ```bash
 > svgpattern 'mdde2023' > mdde2023.svg
@@ -250,7 +250,7 @@ div.header:after {
 }
 ```
 
-## ssgd2023.svg
+## [ssgd2023.svg](https://www.mathconf.org/ssgd2023)
 
 ```bash
 > svgpattern 'ssgd2023' > ssgd2023.svg
