@@ -249,3 +249,21 @@ div.header:after {
   display:none;
 }
 ```
+
+## ssgd2023.svg
+
+```bash
+> svgpattern 'ssgd2023' > ssgd2023.svg
+```
+[![ssgd2023.svg](ssgd2023.svg)](ssgd2023.svg)
+```css
+div.header {
+    background-color:#718040;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/ssgd2023.svg);
+}
+div.header:after {
+  display:none;
+}
+```
