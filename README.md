@@ -267,3 +267,21 @@ div.header:after {
   display:none;
 }
 ```
+
+## [hsrpp2023.svg](https://www.mathconf.org/hsrpp2023)
+
+```bash
+> svgpattern 'hsrpp2023' > hsrpp2023.svg
+```
+[![hsrpp2023.svg](hsrpp2023.svg)](hsrpp2023.svg)
+```css
+div.header {
+    background-color:#834145;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/hsrpp2023.svg);
+}
+div.header:after {
+  display:none;
+}
+```
