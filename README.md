@@ -285,3 +285,21 @@ div.header:after {
   display:none;
 }
 ```
+
+## [seme2023.svg](https://www.mathconf.org/seme2023)
+
+```bash
+> svgpattern 'seme2023' > seme2023.svg
+```
+[![seme2023.svg](seme2023.svg)](seme2023.svg)
+```css
+div.header {
+    background-color:#606f36;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/seme2023.svg);
+}
+div.header:after {
+  display:none;
+}
+```
