@@ -303,3 +303,21 @@ div.header:after {
   display:none;
 }
 ```
+
+## [app-gvl-spring2023.svg](https://www.mathconf.org/app-gvl-spring2023)
+
+```bash
+> svgpattern 'app-gvl-spring2023' > app-gvl-spring2023.svg
+```
+[![app-gvl-spring2023.svg](app-gvl-spring2023.svg)](app-gvl-spring2023.svg)
+```css
+div.header {
+    background-color:#7c3b72;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/app-gvl-spring2023.svg);
+}
+div.header:after {
+  display:none;
+}
+```
