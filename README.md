@@ -321,3 +321,21 @@ div.header:after {
   display:none;
 }
 ```
+
+## [mbekhta2023.svg](https://www.mathconf.org/mbekhta2023)
+
+```bash
+> svgpattern 'mbekhta2023' > mbekhta2023.svg
+```
+[![mbekhta2023.svg](mbekhta2023.svg)](mbekhta2023.svg)
+```css
+div.header {
+    background-color:#816d3d;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/mbekhta2023.svg);
+}
+div.header:after {
+  display:none;
+}
+```
