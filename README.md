@@ -357,3 +357,21 @@ div.header:after {
   display:none;
 }
 ```
+
+## [otlille2023.svg](https://www.mathconf.org/otlille2023)
+
+```bash
+> svgpattern 'otlille2023' > otlille2023.svg
+```
+[![otlille2023.svg](otlille2023.svg)](otlille2023.svg)
+```css
+div.header {
+    background-color:#363f74;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/otlille2023.svg);
+}
+div.header:after {
+  display:none;
+}
+```
