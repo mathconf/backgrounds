@@ -375,3 +375,21 @@ div.header:after {
   display:none;
 }
 ```
+
+## [hist-lille2023.svg](https://www.mathconf.org/hist-lille2023)
+
+```bash
+> svgpattern 'hist-lille2023' > hist-lille2023.svg
+```
+[![hist-lille2023.svg](hist-lille2023.svg)](hist-lille2023.svg)
+```css
+div.header {
+    background-color:#6d3462;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/hist-lille2023.svg);
+}
+div.header:after {
+  display:none;
+}
+```
