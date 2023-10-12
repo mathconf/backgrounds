@@ -393,3 +393,21 @@ div.header:after {
   display:none;
 }
 ```
+
+## [mtvfa2024.svg](https://www.mathconf.org/mtvfa2024)
+
+```bash
+> svgpattern 'mtvfa2024' > mtvfa2024.svg
+```
+[![mtvfa2024.svg](mtvfa2024.svg)](mtvfa2024.svg)
+```css
+div.header {
+    background-color:#573780;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/mtvfa2024.svg);
+}
+div.header:after {
+  display:none;
+}
+```
