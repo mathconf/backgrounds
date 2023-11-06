@@ -411,3 +411,21 @@ div.header:after {
   display:none;
 }
 ```
+
+## [app-gvl-winter2024.svg](https://www.mathconf.org/app-gvl-winter2024)
+
+```bash
+> svgpattern 'app-gvl-winter2024' > app-gvl-winter2024.svg
+```
+[![app-gvl-winter2024.svg](app-gvl-winter2024.svg)](app-gvl-winter2024.svg)
+```css
+div.header {
+    background-color:#387b4b;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/app-gvl-winter2024.svg);
+}
+div.header:after {
+  display:none;
+}
+```
