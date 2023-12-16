@@ -429,3 +429,21 @@ div.header:after {
   display:none;
 }
 ```
+
+## [agqt2024.svg](https://www.mathconf.org/agqt2024)
+
+```bash
+> svgpattern 'agqt2024' > agqt2024.svg
+```
+[![agqt2024.svg](agqt2024.svg)](agqt2024.svg)
+```css
+div.header {
+    background-color:#537433;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/agqt2024.svg);
+}
+div.header:after {
+  display:none;
+}
+```
