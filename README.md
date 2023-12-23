@@ -447,3 +447,21 @@ div.header:after {
   display:none;
 }
 ```
+
+## [jlpp2024.svg](https://www.mathconf.org/jlpp2024)
+
+```bash
+> svgpattern 'jlpp2024' > jlpp2024.svg
+```
+[![jlpp2024.svg](jlpp2024.svg)](jlpp2024.svg)
+```css
+div.header {
+    background-color:#763a56;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/jlpp2024.svg);
+}
+div.header:after {
+  display:none;
+}
+```
