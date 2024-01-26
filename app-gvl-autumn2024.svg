@@ -1,0 +1,58 @@
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <defs>
+    <rect id="tile" stroke="#000" stroke-opacity="0.02" width="26" height="26"/>
+    <pattern  id="pattern" patternTransform="rotate(0) scale(1)" x="0" y="0" width="130" height="182" patternUnits="userSpaceOnUse">
+        <use href="#tile" fill="#222" fill-opacity="0.05" transform="translate(0,0)"/>
+        <use href="#tile" fill="#222" fill-opacity="0.05" transform="translate(0,182)"/>
+        <use href="#tile" fill="#222" fill-opacity="0.05" transform="translate(130,0)"/>
+        <use href="#tile" fill="#222" fill-opacity="0.05" transform="translate(130,182)"/>
+        <use href="#tile" fill="#ddd" fill-opacity="0.11" transform="translate(0,26)"/>
+        <use href="#tile" fill="#ddd" fill-opacity="0.11" transform="translate(130,26)"/>
+        <use href="#tile" fill="#ddd" fill-opacity="0.13" transform="translate(0,52)"/>
+        <use href="#tile" fill="#ddd" fill-opacity="0.13" transform="translate(130,52)"/>
+        <use href="#tile" fill="#222" fill-opacity="0.1" transform="translate(0,78)"/>
+        <use href="#tile" fill="#222" fill-opacity="0.1" transform="translate(130,78)"/>
+        <use href="#tile" fill="#ddd" fill-opacity="0.04" transform="translate(0,104)"/>
+        <use href="#tile" fill="#ddd" fill-opacity="0.04" transform="translate(130,104)"/>
+        <use href="#tile" fill="#ddd" fill-opacity="0.14" transform="translate(0,130)"/>
+        <use href="#tile" fill="#ddd" fill-opacity="0.14" transform="translate(130,130)"/>
+        <use href="#tile" fill="#ddd" fill-opacity="0.13" transform="translate(0,156)"/>
+        <use href="#tile" fill="#ddd" fill-opacity="0.13" transform="translate(130,156)"/>
+        <use href="#tile" fill="#222" fill-opacity="0.11" transform="translate(26,0)"/>
+        <use href="#tile" fill="#222" fill-opacity="0.11" transform="translate(26,182)"/>
+        <use href="#tile" fill="#222" fill-opacity="0.04" transform="translate(26,26)"/>
+        <use href="#tile" fill="#222" fill-opacity="0.12" transform="translate(26,52)"/>
+        <use href="#tile" fill="#ddd" fill-opacity="0.04" transform="translate(26,78)"/>
+        <use href="#tile" fill="#ddd" fill-opacity="0.14" transform="translate(26,104)"/>
+        <use href="#tile" fill="#222" fill-opacity="0.13" transform="translate(26,130)"/>
+        <use href="#tile" fill="#222" fill-opacity="0.14" transform="translate(26,156)"/>
+        <use href="#tile" fill="#ddd" fill-opacity="0.13" transform="translate(52,0)"/>
+        <use href="#tile" fill="#ddd" fill-opacity="0.13" transform="translate(52,182)"/>
+        <use href="#tile" fill="#222" fill-opacity="0.08" transform="translate(52,26)"/>
+        <use href="#tile" fill="#222" fill-opacity="0.05" transform="translate(52,52)"/>
+        <use href="#tile" fill="#222" fill-opacity="0.07" transform="translate(52,78)"/>
+        <use href="#tile" fill="#222" fill-opacity="0.04" transform="translate(52,104)"/>
+        <use href="#tile" fill="#222" fill-opacity="0.13" transform="translate(52,130)"/>
+        <use href="#tile" fill="#ddd" fill-opacity="0.06" transform="translate(52,156)"/>
+        <use href="#tile" fill="#222" fill-opacity="0.01" transform="translate(78,0)"/>
+        <use href="#tile" fill="#222" fill-opacity="0.01" transform="translate(78,182)"/>
+        <use href="#tile" fill="#222" fill-opacity="0.04" transform="translate(78,26)"/>
+        <use href="#tile" fill="#222" fill-opacity="0.03" transform="translate(78,52)"/>
+        <use href="#tile" fill="#222" fill-opacity="0.09" transform="translate(78,78)"/>
+        <use href="#tile" fill="#ddd" fill-opacity="0.11" transform="translate(78,104)"/>
+        <use href="#tile" fill="#ddd" fill-opacity="0.12" transform="translate(78,130)"/>
+        <use href="#tile" fill="#ddd" fill-opacity="0.02" transform="translate(78,156)"/>
+        <use href="#tile" fill="#222" fill-opacity="0.02" transform="translate(104,0)"/>
+        <use href="#tile" fill="#222" fill-opacity="0.02" transform="translate(104,182)"/>
+        <use href="#tile" fill="#222" fill-opacity="0.09" transform="translate(104,26)"/>
+        <use href="#tile" fill="#ddd" fill-opacity="0.06" transform="translate(104,52)"/>
+        <use href="#tile" fill="#ddd" fill-opacity="0.05" transform="translate(104,78)"/>
+        <use href="#tile" fill="#ddd" fill-opacity="0.07" transform="translate(104,104)"/>
+        <use href="#tile" fill="#222" fill-opacity="0.06" transform="translate(104,130)"/>
+        <use href="#tile" fill="#222" fill-opacity="0.08" transform="translate(104,156)"/>
+    </pattern>
+  </defs>
+  <rect fill="#463c7c" height="100%" width="100%" x="0" y="0" />
+  <rect fill="url(#pattern)" height="100%" width="100%" x="0" y="0"/>
+</svg>
