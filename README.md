@@ -483,3 +483,21 @@ div.header:after {
   display:none;
 }
 ```
+
+## [jcn2024.svg](https://www.mathconf.org/jcn2024)
+
+```bash
+> svgpattern 'jcn2024' > jcn2024.svg
+```
+[![jcn2024.svg](jcn2024.svg)](jcn2024.svg)
+```css
+div.header {
+    background-color:#774060;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/jcn2024.svg);
+}
+div.header:after {
+  display:none;
+}
+```
