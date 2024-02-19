@@ -519,3 +519,21 @@ div.header:after {
   display:none;
 }
 ```
+
+## [mathsecu2024.svg](https://www.mathconf.org/mathsecu2024)
+
+```bash
+> svgpattern 'mathsecu2024' > mathsecu2024.svg
+```
+[![mathsecu2024.svg](mathsecu2024.svg)](mathsecu2024.svg)
+```css
+div.header {
+    background-color:#84563c;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/mathsecu2024.svg);
+}
+div.header:after {
+  display:none;
+}
+```
