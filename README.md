@@ -537,3 +537,21 @@ div.header:after {
   display:none;
 }
 ```
+
+## [app-gvl-summer2024.svg](https://www.mathconf.org/app-gvl-summer2024)
+
+```bash
+> svgpattern 'app-gvl-summer2024' > app-gvl-summer2024.svg
+```
+[![app-gvl-summer2024.svg](app-gvl-summer2024.svg)](app-gvl-summer2024.svg)
+```css
+div.header {
+    background-color:#703c6e;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/app-gvl-summer2024.svg);
+}
+div.header:after {
+  display:none;
+}
+```
