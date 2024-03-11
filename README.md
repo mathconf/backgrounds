@@ -573,3 +573,21 @@ div.header:after {
   display:none;
 }
 ```
+
+## [alfiitr2024.svg](https://www.mathconf.org/alfiitr2024)
+
+```bash
+> svgpattern 'alfiitr2024' > alfiitr2024.svg
+```
+[![alfiitr2024.svg](alfiitr2024.svg)](alfiitr2024.svg)
+```css
+div.header {
+    background-color:#343667;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/alfiitr2024.svg);
+}
+div.header:after {
+  display:none;
+}
+```
