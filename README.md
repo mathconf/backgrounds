@@ -591,3 +591,21 @@ div.header:after {
   display:none;
 }
 ```
+
+## [cdcg2024.svg](https://www.mathconf.org/cdcg2024)
+
+```bash
+> svgpattern 'cdcg2024' > cdcg2024.svg
+```
+[![cdcg2024.svg](cdcg2024.svg)](cdcg2024.svg)
+```css
+div.header {
+    background-color:#397649;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/cdcg2024.svg);
+}
+div.header:after {
+  display:none;
+}
+```
