@@ -609,3 +609,21 @@ div.header:after {
   display:none;
 }
 ```
+
+## [cgdp2024.svg](https://www.mathconf.org/cgdp2024)
+
+```bash
+> svgpattern 'cgdp2024' > cgdp2024.svg
+```
+[![cgdp2024.svg](cgdp2024.svg)](cgdp2024.svg)
+```css
+div.header {
+    background-color:#626f38;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/cgdp2024.svg);
+}
+div.header:after {
+  display:none;
+}
+```
