@@ -663,3 +663,21 @@ div.header:after {
   display:none;
 }
 ```
+
+## [itrpg2025.svg](https://www.mathconf.org/itrpg2025)
+
+```bash
+> svgpattern 'itrpg2025' > itrpg2025.svg
+```
+[![itrpg2025.svg](itrpg2025.svg)](itrpg2025.svg)
+```css
+div.header {
+    background-color:#6f6738;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/itrpg2025.svg);
+}
+div.header:after {
+  display:none;
+}
+```
