@@ -681,3 +681,21 @@ div.header:after {
   display:none;
 }
 ```
+
+## [antaf2025.svg](https://www.mathconf.org/antaf2025)
+
+```bash
+> svgpattern 'antaf2025' > antaf2025.svg
+```
+[![antaf2025.svg](antaf2025.svg)](antaf2025.svg)
+```css
+div.header {
+    background-color:#68385b;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/antaf2025.svg);
+}
+div.header:after {
+  display:none;
+}
+```
