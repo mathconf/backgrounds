@@ -699,3 +699,21 @@ div.header:after {
   display:none;
 }
 ```
+
+## [gsald2025.svg](https://www.mathconf.org/gsald2025)
+
+```bash
+> svgpattern 'gsald2025' > gsald2025.svg
+```
+[![gsald2025.svg](gsald2025.svg)](gsald2025.svg)
+```css
+div.header {
+    background-color:#3e7582;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/gsald2025.svg);
+}
+div.header:after {
+  display:none;
+}
+```
