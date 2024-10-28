@@ -735,3 +735,21 @@ div.header:after {
   display:none;
 }
 ```
+
+## [ddeaaga2025.svg](https://www.mathconf.org/ddeaaga2025)
+
+```bash
+> svgpattern 'ddeaaga2025' > ddeaaga2025.svg
+```
+[![ddeaaga2025.svg](ddeaaga2025.svg)](ddeaaga2025.svg)
+```css
+div.header {
+    background-color:#763678;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/ddeaaga2025.svg);
+}
+div.header:after {
+  display:none;
+}
+```
