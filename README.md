@@ -753,3 +753,21 @@ div.header:after {
   display:none;
 }
 ```
+
+## [lilloises2025.svg](https://www.mathconf.org/lilloises2025)
+
+```bash
+> svgpattern 'lilloises2025' > lilloises2025.svg
+```
+[![lilloises2025.svg](lilloises2025.svg)](lilloises2025.svg)
+```css
+div.header {
+    background-color:#3d795f;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/lilloises2025.svg);
+}
+div.header:after {
+  display:none;
+}
+```
