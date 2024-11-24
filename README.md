@@ -771,3 +771,21 @@ div.header:after {
   display:none;
 }
 ```
+
+## [agqt2025.svg](https://www.mathconf.org/agqt2025)
+
+```bash
+> svgpattern 'agqt2025' > agqt2025.svg
+```
+[![agqt2025.svg](agqt2025.svg)](agqt2025.svg)
+```css
+div.header {
+    background-color:#6d384b;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/agqt2025.svg);
+}
+div.header:after {
+  display:none;
+}
+```

@@ -1,0 +1,38 @@
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <g fill="none" stroke-width="21" stroke-linecap="square">
+      <path id="wave1" d="M0 0 C 70 30 70 -30 140 0" />
+      <path id="wave2" d="M0 0 C 70 50 70 -50 140 0" />
+      <path id="wave3" d="M0 0 C 70 70 70 -70 140 0" />
+    </g>
+    <g id="tile1" fill="none" stroke-width="21" stroke-linecap="square" >
+      <use href="#wave1" transform="translate(0,-210)"/>
+      <use href="#wave1" transform="translate(0,0)"/>
+      <use href="#wave1" transform="translate(0,210)"/>
+    </g>
+    <g id="tile2" fill="none" stroke-width="21" stroke-linecap="square" >
+      <use href="#wave2" transform="translate(0,-210)"/>
+      <use href="#wave2" transform="translate(0,0)"/>
+      <use href="#wave2" transform="translate(0,210)"/>
+    </g>
+    <g id="tile3" fill="none" stroke-width="21" stroke-linecap="square" >
+      <use href="#wave3" transform="translate(0,-210)"/>
+      <use href="#wave3" transform="translate(0,0)"/>
+      <use href="#wave3" transform="translate(0,210)"/>
+    </g>
+    <pattern  id="pattern" patternTransform="rotate(0) scale(1)" x="0" y="0" width="140" height="210" patternUnits="userSpaceOnUse">
+      <use href="#tile1" stroke="#222" stroke-opacity="0.06" transform="translate(0,0)"/>
+      <use href="#tile3" stroke="#222" stroke-opacity="0.09" transform="translate(0,21)"/>
+      <use href="#tile3" stroke="#222" stroke-opacity="0.06" transform="translate(0,42)"/>
+      <use href="#tile1" stroke="#222" stroke-opacity="0.08" transform="translate(0,63)"/>
+      <use href="#tile3" stroke="#ddd" stroke-opacity="0.13" transform="translate(0,84)"/>
+      <use href="#tile2" stroke="#ddd" stroke-opacity="0.03" transform="translate(0,105)"/>
+      <use href="#tile3" stroke="#222" stroke-opacity="0.12" transform="translate(0,126)"/>
+      <use href="#tile3" stroke="#ddd" stroke-opacity="0.03" transform="translate(0,147)"/>
+      <use href="#tile3" stroke="#ddd" stroke-opacity="0.12" transform="translate(0,168)"/>
+      <use href="#tile1" stroke="#ddd" stroke-opacity="0.11" transform="translate(0,189)"/>
+    </pattern>
+  </defs>
+  <rect fill="#6d384b" height="100%" width="100%" x="0" y="0" />
+  <rect fill="url(#pattern)" height="100%" width="100%" x="0" y="0"/>
+</svg>
