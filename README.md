@@ -789,3 +789,21 @@ div.header:after {
   display:none;
 }
 ```
+
+## [snatg2026.svg](https://www.mathconf.org/snatg2026)
+
+```bash
+> svgpattern 'snatg2026' > snatg2026.svg
+```
+[![snatg2026.svg](snatg2026.svg)](snatg2026.svg)
+```css
+div.header {
+    background-color:#448578;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/snatg2026.svg);
+}
+div.header:after {
+  display:none;
+}
+```
