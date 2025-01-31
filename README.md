@@ -839,3 +839,28 @@ div.header:after {
     color: #837d3b;
 }
 ```
+
+## [nag2025.svg](https://www.mathconf.org/nag2025)
+
+```bash
+> svgpattern 'nag2025' > nag2025.svg
+```
+[![nag2025.svg](nag2025.svg)](nag2025.svg)
+```css
+div.header {
+    background-color: #50376a;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/nag2025.svg);
+}
+div.header:after {
+  display:none;
+}
+.nav > .menuselected > a,
+.nav > .menuselected > a:hover {
+    background-color: #50376a;
+}
+.nav a {
+    color: #50376a;
+}
+```
