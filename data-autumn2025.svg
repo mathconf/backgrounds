@@ -1,0 +1,30 @@
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <defs>
+    <pattern  id="pattern" patternTransform="rotate(0) scale(1)" x="0" y="0" width="385" height="315" patternUnits="userSpaceOnUse">
+      <rect fill="#ddd" fill-opacity="0.07" width="25" height="315" x="3" y="0"/>
+      <rect fill="#222" fill-opacity="0.12" width="14" height="315" x="42" y="0"/>
+      <rect fill="#222" fill-opacity="0.03" width="18" height="315" x="74" y="0"/>
+      <rect fill="#222" fill-opacity="0.08" width="25" height="315" x="107" y="0"/>
+      <rect fill="#ddd" fill-opacity="0.14" width="24" height="315" x="146" y="0"/>
+      <rect fill="#222" fill-opacity="0.11" width="24" height="315" x="181" y="0"/>
+      <rect fill="#222" fill-opacity="0.12" width="25" height="315" x="216" y="0"/>
+      <rect fill="#222" fill-opacity="0.14" width="22" height="315" x="252" y="0"/>
+      <rect fill="#ddd" fill-opacity="0.13" width="20" height="315" x="287" y="0"/>
+      <rect fill="#ddd" fill-opacity="0.1" width="18" height="315" x="316" y="0"/>
+      <rect fill="#ddd" fill-opacity="0.08" width="26" height="315" x="355" y="0"/>
+      <rect fill="#ddd" fill-opacity="0.1" width="385" height="26" x="0" y="2"/>
+      <rect fill="#222" fill-opacity="0.01" width="385" height="22" x="0" y="37"/>
+      <rect fill="#ddd" fill-opacity="0.05" width="385" height="28" x="0" y="75"/>
+      <rect fill="#222" fill-opacity="0.09" width="385" height="18" x="0" y="112"/>
+      <rect fill="#ddd" fill-opacity="0.11" width="385" height="24" x="0" y="141"/>
+      <rect fill="#ddd" fill-opacity="0.13" width="385" height="24" x="0" y="181"/>
+      <rect fill="#222" fill-opacity="0.02" width="385" height="21" x="0" y="217"/>
+      <rect fill="#222" fill-opacity="0.05" width="385" height="19" x="0" y="246"/>
+      <rect fill="#ddd" fill-opacity="0.03" width="385" height="18" x="0" y="282"/>
+
+    </pattern>
+  </defs>
+  <rect fill="#3b864e" height="100%" width="100%" x="0" y="0" />
+  <rect fill="url(#pattern)" height="100%" width="100%" x="0" y="0"/>
+</svg>
