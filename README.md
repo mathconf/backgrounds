@@ -939,3 +939,28 @@ div.header:after {
     color: #3b5382;
 }
 ```
+
+## [cgd2025.svg](https://www.mathconf.org/cgd2025)
+
+```bash
+> svgpattern 'cgd2025' > cgd2025.svg
+```
+[![cgd2025.svg](cgd2025.svg)](cgd2025.svg)
+```css
+div.header {
+    background-color: #754835;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/cgd2025.svg);
+}
+div.header:after {
+  display:none;
+}
+.nav > .menuselected > a,
+.nav > .menuselected > a:hover {
+    background-color: #754835;
+}
+.nav a {
+    color: #754835;
+}
+```
