@@ -989,3 +989,28 @@ div.header:after {
     color: #6b8545;
 }
 ```
+
+## [mbe2025.svg](https://www.mathconf.org/mbe2025)
+
+```bash
+> svgpattern 'mbe2025' > mbe2025.svg
+```
+[![mbe2025.svg](mbe2025.svg)](mbe2025.svg)
+```css
+div.header {
+    background-color: #446f3b;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/mbe2025.svg);
+}
+div.header:after {
+  display:none;
+}
+.nav > .menuselected > a,
+.nav > .menuselected > a:hover {
+    background-color: #446f3b;
+}
+.nav a {
+    color: #446f3b;
+}
+```
