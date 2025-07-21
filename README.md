@@ -1039,3 +1039,28 @@ div.header:after {
     color: #703c6e;
 }
 ```
+
+## [giq2026.svg](https://www.mathconf.org/giq2026)
+
+```bash
+> svgpattern 'giq2026' > giq2026.svg
+```
+[![giq2026.svg](giq2026.svg)](giq2026.svg)
+```css
+div.header {
+    background-color: #4c4483;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/giq2026.svg);
+}
+div.header:after {
+  display:none;
+}
+.nav > .menuselected > a,
+.nav > .menuselected > a:hover {
+    background-color: #4c4483;
+}
+.nav a {
+    color: #4c4483;
+}
+```
