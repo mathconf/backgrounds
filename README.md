@@ -1089,3 +1089,28 @@ div.header:after {
     color: #3e863b;
 }
 ```
+
+## [agqt2026.svg](https://www.mathconf.org/agqt2026)
+
+```bash
+> svgpattern 'agqt2026' > agqt2026.svg
+```
+[![agqt2026.svg](agqt2026.svg)](agqt2026.svg)
+```css
+div.header {
+    background-color: #37657a;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/agqt2026.svg);
+}
+div.header:after {
+  display:none;
+}
+.nav > .menuselected > a,
+.nav > .menuselected > a:hover {
+    background-color: #37657a;
+}
+.nav a {
+    color: #37657a;
+}
+```
