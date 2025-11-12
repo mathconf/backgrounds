@@ -1164,3 +1164,28 @@ div.header:after {
     color: #775b33;
 }
 ```
+
+## [rtotft2026.svg](https://www.mathconf.org/rtotft2026)
+
+```bash
+> svgpattern 'rtotft2026' > rtotft2026.svg
+```
+[![rtotft2026.svg](rtotft2026.svg)](rtotft2026.svg)
+```css
+div.header {
+    background-color: #673d7b;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/rtotft2026.svg);
+}
+div.header:after {
+  display:none;
+}
+.nav > .menuselected > a,
+.nav > .menuselected > a:hover {
+    background-color: #673d7b;
+}
+.nav a {
+    color: #673d7b;
+}
+```
