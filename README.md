@@ -1239,3 +1239,28 @@ div.header:after {
     color: #8b4179;
 }
 ```
+
+## [app-gvl-winter2026.svg](https://www.mathconf.org/app-gvl-winter2026)
+
+```bash
+> svgpattern 'app-gvl-winter2026' > app-gvl-winter2026.svg
+```
+[![app-gvl-winter2026.svg](app-gvl-winter2026.svg)](app-gvl-winter2026.svg)
+```css
+div.header {
+    background-color: #566f38;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/app-gvl-winter2026.svg);
+}
+div.header:after {
+  display:none;
+}
+.nav > .menuselected > a,
+.nav > .menuselected > a:hover {
+    background-color: #566f38;
+}
+.nav a {
+    color: #566f38;
+}
+```
