@@ -1289,3 +1289,28 @@ div.header:after {
     color: #3c8b79;
 }
 ```
+
+## [gd2026.svg](https://www.mathconf.org/gd2026)
+
+```bash
+> svgpattern 'gd2026' > gd2026.svg
+```
+[![gd2026.svg](gd2026.svg)](gd2026.svg)
+```css
+div.header {
+    background-color: #645935;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/gd2026.svg);
+}
+div.header:after {
+  display:none;
+}
+.nav > .menuselected > a,
+.nav > .menuselected > a:hover {
+    background-color: #645935;
+}
+.nav a {
+    color: #645935;
+}
+```
