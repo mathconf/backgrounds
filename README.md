@@ -1314,3 +1314,28 @@ div.header:after {
     color: #645935;
 }
 ```
+
+## [app-gvl-spring2026.svg](https://www.mathconf.org/app-gvl-spring2026)
+
+```bash
+> svgpattern 'app-gvl-spring2026' > app-gvl-spring2026.svg
+```
+[![app-gvl-spring2026.svg](app-gvl-spring2026.svg)](app-gvl-spring2026.svg)
+```css
+div.header {
+    background-color: #346959;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/app-gvl-spring2026.svg);
+}
+div.header:after {
+  display:none;
+}
+.nav > .menuselected > a,
+.nav > .menuselected > a:hover {
+    background-color: #346959;
+}
+.nav a {
+    color: #346959;
+}
+```
