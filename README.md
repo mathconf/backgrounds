@@ -1364,3 +1364,28 @@ div.header:after {
     color: #813f76;
 }
 ```
+
+## [mes2026.svg](https://www.mathconf.org/mes2026)
+
+```bash
+> svgpattern 'mes2026' > mes2026.svg
+```
+[![mes2026.svg](mes2026.svg)](mes2026.svg)
+```css
+div.header {
+    background-color: #336c75;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/mes2026.svg);
+}
+div.header:after {
+  display:none;
+}
+.nav > .menuselected > a,
+.nav > .menuselected > a:hover {
+    background-color: #336c75;
+}
+.nav a {
+    color: #336c75;
+}
+```
