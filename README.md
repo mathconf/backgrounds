@@ -1489,3 +1489,28 @@ div.header:after {
     color: #376f39;
 }
 ```
+
+## [mcm2r2027.svg](https://www.mathconf.org/mcm2r2027)
+
+```bash
+> svgpattern 'mcm2r2027' > mcm2r2027.svg
+```
+[![mcm2r2027.svg](mcm2r2027.svg)](mcm2r2027.svg)
+```css
+div.header {
+    background-color: #7b5838;
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .21)),
+      url(https://mathconf.github.io/backgrounds/mcm2r2027.svg);
+}
+div.header:after {
+  display:none;
+}
+.nav > .menuselected > a,
+.nav > .menuselected > a:hover {
+    background-color: #7b5838;
+}
+.nav a {
+    color: #7b5838;
+}
+```
